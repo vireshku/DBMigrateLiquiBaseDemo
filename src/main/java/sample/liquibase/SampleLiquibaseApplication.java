@@ -11,7 +11,7 @@ public class SampleLiquibaseApplication {
     @RequestMapping("/")
         @ResponseBody
         String home() {
-        return "Hello World!";
+        return "DB Migrate Demo using the Liquibase !!!!!";
     }
 
     public static void main(String[] args) throws Exception {
